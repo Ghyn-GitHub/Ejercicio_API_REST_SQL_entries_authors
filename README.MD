@@ -106,3 +106,91 @@ Payload:
 ```
 {message: "Se ha borrado guillermu@thebridgeschool.es"}
 ```
+
+## Endpoints
+
+### Authors
+
+#### GET - Obtener todos los autores:
+```
+http://localhost:3000/api/authors
+```
+
+#### GET - Obtener un autor por email:
+```
+http://localhost:3000/api/authors?email=alejandru@thebridgeschool.es
+```
+
+#### POST - Crear un autor nuevo:
+```
+http://localhost:3000/api/authors
+```
+    {
+        "name": "Pepe",
+        "surname": "Azteca",
+        "email": "pepeazteca@thebridgeschool.es",
+        "image": "pepeazteca.png"
+    }
+
+#### PUT - Modificar un autor:
+```
+http://localhost:3000/api/authors
+```
+    {
+        "email": "pepeazteca@thebridgeschool.es",
+        "new_email": "pepemaya@thebridgeschool.es",
+        "name": "Pepe",
+        "surname": "Azteca",
+        "image": "pepeazteca.png"
+    }
+
+#### DELETE - Eliminar un autor:
+```
+http://localhost:3000/api/authors
+```
+    {
+        "email": "pepemaya@thebridgeschool.es"
+    }
+
+### Entries
+
+#### GET - Obtener todas las entradas:
+```
+http://localhost:3000/api/entries
+```
+
+#### GET - Obtener todas las entradas de un email:
+```
+http://localhost:3000/api/entries?email=alejandru@thebridgeschool.es
+```
+
+#### POST - Crear una nueva entrada:
+```
+http://localhost:3000/api/entries
+```
+    {
+        "title": "Noticia de prueba",
+        "content": "Probando el endpoint POST desde Postman",
+        "email": "alejandru@thebridgeschool.es",
+        "category": "sucesos"
+    }
+
+#### PUT - Modificar una entrada:
+```
+http://localhost:3000/api/entries
+```
+    {
+        "title": "Noticia de prueba",
+        "new_title": "Noticia actualizada",
+        "content": "Contenido actualizado desde Thunder Client",
+        "email": "alejandru@thebridgeschool.es",
+        "category": "actualidad"
+    }
+
+#### DELETE - Eliminar una entrada:
+```
+http://localhost:3000/api/entries
+```
+    {
+        "title": "Noticia actualizada"
+    }

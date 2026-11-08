@@ -1,1 +1,13 @@
+# Enviroment variables
+.env
+.env.*
+!.env.example
+
+# Dependencies
 node_modules
+
+# Test
+test-db.js
+
+# Docker compose
+docker-compose.yml
