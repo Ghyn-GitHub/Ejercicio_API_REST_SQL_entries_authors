@@ -113,17 +113,17 @@ Payload:
 
 #### GET - Obtener todos los autores:
 ```
-http://localhost:3000/api/authors
+https://api-rest-sql-entries-authors.onrender.com/api/authors
 ```
 
 #### GET - Obtener un autor por email:
 ```
-http://localhost:3000/api/authors?email=alejandru@thebridgeschool.es
+https://api-rest-sql-entries-authors.onrender.com/api/authors?email=alejandru@thebridgeschool.es
 ```
 
 #### POST - Crear un autor nuevo:
 ```
-http://localhost:3000/api/authors
+https://api-rest-sql-entries-authors.onrender.com/api/authors
 ```
     {
         "name": "Pepe",
@@ -134,7 +134,7 @@ http://localhost:3000/api/authors
 
 #### PUT - Modificar un autor:
 ```
-http://localhost:3000/api/authors
+https://api-rest-sql-entries-authors.onrender.com/api/authors
 ```
     {
         "email": "pepeazteca@thebridgeschool.es",
@@ -146,7 +146,7 @@ http://localhost:3000/api/authors
 
 #### DELETE - Eliminar un autor:
 ```
-http://localhost:3000/api/authors
+https://api-rest-sql-entries-authors.onrender.com/api/authors
 ```
     {
         "email": "pepemaya@thebridgeschool.es"
@@ -156,17 +156,17 @@ http://localhost:3000/api/authors
 
 #### GET - Obtener todas las entradas:
 ```
-http://localhost:3000/api/entries
+https://api-rest-sql-entries-authors.onrender.com/api/entries
 ```
 
 #### GET - Obtener todas las entradas de un email:
 ```
-http://localhost:3000/api/entries?email=alejandru@thebridgeschool.es
+https://api-rest-sql-entries-authors.onrender.com/api/authors?email=alejandru@thebridgeschool.es
 ```
 
 #### POST - Crear una nueva entrada:
 ```
-http://localhost:3000/api/entries
+https://api-rest-sql-entries-authors.onrender.com/api/entries
 ```
     {
         "title": "Noticia de prueba",
@@ -177,7 +177,7 @@ http://localhost:3000/api/entries
 
 #### PUT - Modificar una entrada:
 ```
-http://localhost:3000/api/entries
+https://api-rest-sql-entries-authors.onrender.com/api/entriess
 ```
     {
         "title": "Noticia de prueba",
@@ -189,7 +189,7 @@ http://localhost:3000/api/entries
 
 #### DELETE - Eliminar una entrada:
 ```
-http://localhost:3000/api/entries
+https://api-rest-sql-entries-authors.onrender.com/api/entries
 ```
     {
         "title": "Noticia actualizada"
