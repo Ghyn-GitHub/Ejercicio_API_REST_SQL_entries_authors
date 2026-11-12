@@ -6,7 +6,6 @@ const entriesRoutes = require('./routes/entries.routes');
 const authorsRoutes = require('./routes/authors.routes');
 const error404 = require('./middlewares/error404');
 const morgan = require('./middlewares/morgan');
-const { default: helmet } = require('helmet');
 const helmet = require("helmet");
 
 // Variables de entorno
