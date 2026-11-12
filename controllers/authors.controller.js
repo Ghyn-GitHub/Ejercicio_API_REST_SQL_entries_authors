@@ -22,7 +22,7 @@ const getAuthor = async (req, res) => {
 const createAuthor = async (req, res) => {
   try {
     const newAuthor = req.body; // {name,surname,email,image}
-    const response = await author.createAuthor(newAuthor);
+    await author.createAuthor(newAuthor);
     res.status(201).json({
       message: `usuario creado: ${newAuthor.email}`,
     });

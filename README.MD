@@ -194,3 +194,10 @@ https://api-rest-sql-entries-authors.onrender.com/api/entries
     {
         "title": "Noticia actualizada"
     }
+
+
+### CHANGELOG
+
+- **1.0.0** - Versión inicial.
+- **1.0.1** - README actualizado con URLs de Render.
+- **1.1.0** - Validación añadida, middleware error404, Morgan y Helmet.
